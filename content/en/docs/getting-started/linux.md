@@ -21,7 +21,7 @@ Run FileBrowser Quantum natively on Linux using the binary releases.
 ## Make Executable
 
 ```bash
-chmod +x filebrowser-linux-amd64
+chmod +x linux-amd64-filebrowser
 ```
 
 ## Optional: Install FFmpeg
