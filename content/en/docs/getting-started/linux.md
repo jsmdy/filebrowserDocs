@@ -42,7 +42,7 @@ sudo pacman -S ffmpeg
 Interactive setup:
 
 ```bash
-./filebrowser-linux-amd64 setup
+./linux-amd64-filebrowser setup
 ```
 
 Or create `config.yaml`:
@@ -61,7 +61,7 @@ auth:
 ## Run FileBrowser
 
 ```bash
-./filebrowser-linux-amd64 -c config.yaml
+./linux-amd64-filebrowser -c config.yaml
 ```
 
 Access at `http://localhost:80`
@@ -71,7 +71,7 @@ Access at `http://localhost:80`
 ### Step 1: Move Binary
 
 ```bash
-sudo mv filebrowser-linux-amd64 /usr/local/bin/filebrowser
+sudo mv linux-amd64-filebrowser /usr/local/bin/filebrowser
 sudo chmod +x /usr/local/bin/filebrowser
 ```
 
